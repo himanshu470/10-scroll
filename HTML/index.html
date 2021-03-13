@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Scroll</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+</head>
+<body>
+<header id="home">
+    <nav id="nav">
+        <div class="nav-center">
+            <div class="nav-header">
+                <img src="https://raw.githubusercontent.com/john-smilga/javascript-basic-projects/133c6420650c1954eb6a26a75f8f9a0ff2d8d006/10-scroll/setup/logo.svg" alt="logo" class="logo">
+                  <button class="nav-toggle">
+                      <i class="fas fa-bars"></i>
+                  </button>
+            </div>
+            <div class="links-container">
+                <ul class="links">
+                    <li>
+                        <a href="#home" class="scroll-link">home</a>
+                    </li>
+                    <li>
+                        <a href="#about" class="scroll-link">about</a>
+                    </li>
+                    <li>
+                        <a href="#services" class="scroll-link">services</a>
+                    </li>
+                    <li>
+                        <a href="#tours" class="scroll-link">tours</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+<!--    bannner-->
+    <div class="banner">
+        <div class="container">
+            <h1>SCROLL PROJECT</h1>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+       <a href="#tours" class="scroll-link btn btn-white">EXPLORE TOURS</a>
+        </div>
+    </div>
+</header>
+    <section id="about" class="section">
+        <div class="title">
+            <h2>About<span>Us</span></h2>
+        </div>
+    </section>
+    <section id="services" class="section">
+        <div class="title">
+            <h2>Our<span>Services</span></h2>
+        </div>
+    </section>
+    <section id="tours" class="section">
+        <div class="title">
+            <h2>Featured<span>Tours</span></h2>
+        </div>
+    </section>
+
+<!--footer-->
+<footer class="section">
+    <p>
+        Copyright &copy; backroads travel tours company
+        <span id="date"></span>.all rights reserved
+    </p>
+</footer>
+
+<!--back to top buttton-->
+<a href="#home" class="scroll-link top-link">
+    <i class="fas fa-arrow-up"></i>
+</a>
+
+<script type="text/javascript" src="../JS/app.js"></script>
+</body>
+</html>
